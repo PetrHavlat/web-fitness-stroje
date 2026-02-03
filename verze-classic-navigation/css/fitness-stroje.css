@@ -1,0 +1,44 @@
+/* Základní reset okrajů a vycpávek pro seznam */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #212529;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Aktivní stránka */
+.nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Hover efekt */
+.nav-link:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Pro velmi úzké obrazovky – vertikální layout */
+@media (max-width: 576px) {
+  .nav-list {
+    flex-direction: column;
+  }
+}
