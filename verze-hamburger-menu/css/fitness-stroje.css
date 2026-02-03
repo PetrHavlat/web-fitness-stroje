@@ -1,0 +1,104 @@
+/* Základní styly pro navigaci */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.nav-list.open {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #212529;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Aktuálně vybraná položka */
+.nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Hover efekt */
+.nav-link:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Hamburger ikona */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  gap: 4px;
+}
+
+.hamburger span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  transition: 0.3s ease;
+}
+
+/* Styl hamburgeru v otevřeném stavu (můžeš přidat přes JS) */
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(3px, 3px);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(3px, -3px);
+}
+
+/* Na větších obrazovkách zobrazit menu horizontálně a hamburger skrýt */
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-list {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    flex-direction: row;
+    background: none;
+    border: none;
+  }
+}
