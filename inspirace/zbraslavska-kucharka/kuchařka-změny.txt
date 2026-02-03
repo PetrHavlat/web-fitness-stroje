@@ -1,0 +1,65 @@
+Finální úpravy
+
+
+vložit nìjaký recepty 10-15 od každý kategorie
+
+2.zálohování!!!
+!otestovat pøes webmaster tools-1test dopad strašnì
+otestovat na major prohlížeèích
+
+devbook
+napsat zprávu prùvodní zprávu k linkùm
+napsat linky
+
+dát do životopisu
+vložit do katalogu endory
+
+rušení ostatních hostingù
+
+SEO
+
+Optimalizace stránek
+- 1-2znaký aliasy OKOMENTOVAT!!
+- eliminovat nadbyteènej kód
+- sjednocení js, css a php
+- html atribut manifest/další možnosti cachovaní
+
+- css sprites - obrazovová mapa místo obrázkù
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

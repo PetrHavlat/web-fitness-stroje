@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+
+    <title>Moje recepty | Úvodní stránka</title>
+
+    <meta charset='utf-8'>
+    <meta name='description' content="Známé i méně známé recepty na chutná jídla
+                                      české i světové kuchyně.">
+    <meta name='author' content='Petr Havlát'><meta name='copyright' content='Petr Havlát'>
+    <meta name='robots' content='all'>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="A2nEL-S5maDG6G_-CA23PxY8q6N_n8WDQ8tuo6iFh74" />
+    <link rel="stylesheet" href="css/kucharka.css" type="text/css">
+    <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+    <link href='image/favicon.png' rel='shortcut icon' type='image/png'>
+
+    <script src="js/modernizer-min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <header>
+
+        <a href="http://www.facebook.com/petr.havlat">
+          <img class="icon" src="image/logo.png"
+               alt="Kontaktuj mě na Facebooku" title="Kontaktuj mě na Facebooku">
+        </a>
+        <h1>Moje recepty</h1>
+
+      </header>
+
+      <nav>
+
+        <ul>
+          <li><a href="index.html">Úvodní stránka</a></li>
+          <li><a href="recepty.php">Recepty</a></li>
+          <li><a href="pridat_recept.php">Přidat recept</a></li>
+          <li><a href="navstevni_kniha.php">Návštěvní kniha</a></li>
+        </ul>
+
+  		</nav>
+
+  		<section>
+
+        <article id="left_box">
+
+           <div class="flexslider">
+             <ul class="slides">
+		           <li><img src="image/slide.jpg" alt="křupavý chléb"></li>
+               <li><img src="image/slide2.jpg" alt="čerstvě upečené sušenky"></li>
+		           <li><img src="image/slide3.jpg" alt="obložená mísa"></li>
+               <li><img src="image/slide4.jpg" alt="obložená mísa"></li>
+             </ul>
+           </div>
+
+        </article>
+        
+        <article id="right_box" class="welcome">
+          <div class="transparent">
+           <h2>Vítejte!</h2>
+           <p>Baví vás vařit a jíst dobrá jídla? To jste na správných stránkách!<br />
+              Snad se Vám moje stránky líbí a doufám, že tu najdete nějaký zajímavý<br />
+              recept, který si hned vyzkoušíte.</p>
+
+           <h2>Novinky:</h2>
+           <iframe id="news" src="html/aktuality.html"></iframe>
+          </div>
+        </article>
+        
+      </section>
+
+    	<footer>
+
+        <p>Vytvořil a spravuje Petr Havlát &copy; 2014.
+           Kontakt: <a href="mailto:havlat82@centrum.cz">havlat82@centrum.cz</a>.<br>
+           Všechny použité obrázky jsou k volnému použití.</p>
+        <endora>
+
+      </footer>
+
+    </div>     <!-- konec id obal -->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="flexslider/jquery.flexslider-min.js"></script>
+    <script>
+      $(window).load(function() {
+		    $('.flexslider').flexslider({
+		    animation: "fade",
+		    slideshowSpeed: 4000,
+		    pauseOnHover: true,
+        directionNav: false,
+			  });
+		  });
+    </script>
+
+  </body>
+</html>

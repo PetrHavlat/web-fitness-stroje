@@ -1,0 +1,44 @@
+﻿Prostor pro ty novinky udělej větší, protáhni ho až na patičku :-)
+A patičku předělej, vůbec se k tomu světlému vzhledu nehodí :-)
+Po nadpisu H1 nikde nevidím nadpis H2 a píšeš rovnou nadpisy H3, to nedělá dobrotu :-)
+Špatný meta zápis pro "copyright" v HTML5 ;-)
+
+Jinak tomu není moc co vytknout :-)
+
+na mém 1366x768 monitoru mám problém s dolní lištou
+Vytvořil a spravuje Petr Havlát © 2014
+která mi překrývá například tlačítka u přidání receptu
+
+Máš blbě footer, sice se lepí dolu, ale když proscrolluju
+tak zjistím že vlastně překrývá ty tlačítka v slide atd. :)
+
+Jinak design nic moc. Pokud je to tvůj první web tak je to ok, ale jinak ne promiň.
+
+Nesouhlasím s tím, že tomu není co vytknout, i když to zdaleka není nejhorší co jsem kdy viděl,
+ale sám sis o to řekl, připrav se tedy na hejt-test.
+Největším problémem co se týče designu je to,
+že ti stránka funguje správně jen při šířce monitoru/okna 1024px,
+další je zastaralost konceptu vloženého scrollovacího rámečku...
+i když mám velký monitor, tak musím rolovat abych viděl něco z obsahu.
+Rozhodně by to chtělo přidat nějakou captchu do návštěvní knihy
+(pokud ji tam opravdu chceš, na pár webech jsem ji taky měl a nikdy tam nikdo nenapsal),
+a rozhodně tam nedávej reklamu, zvlášť ne takovou, která vede na tři různá místa.
+Jak už bylo zmíněno, patička nepasuje a její pozadí je opravdu ošklivé a
+ani z technického hlediska to není dobrá textura
+(je jasně vidět opakující se vzor),
+jinak idea není špatná, ale jedním ze základních kroků při vytváření webu je
+testovat na různých zařízeních, rozlišeních a prohlížečích.
+Ty fotky na pozadí hlavního obsahu určitě vyhoď nebo je nahraď nejakými tématickými obrázky,
+které ale nebudou rušit pozornost (na stránkách přidat recept a v návštěvní knize ujdou,
+ale v návštěvní knite není čitelný černý text na téměř černém pozadí,
+přidej světlý overlay, jako na prvních dvou stránkách).
+Logo stránek vede bez varování na facebook, to je určitě špatně,
+raději přidej samostatnou social ikonu a nech logo vést na index webu.
+Po najetí na rozbalovací element by se měl aspoň změnit kurzor na pointer,
+aby uřivatel věděl, že na to jde kliknout,
+zauvažoval bych i nad nějakým hover efektem.
+A abych nebyl jen negativní, docela se mi líbí formuláře,
+ačkoliv tlačítko vymaž je naprosto zbytečné,
+pak se někdo uklikne a místo odeslání si to smaže...
+
+nefunguje konverze na malý písmena ve hledaní receptů..

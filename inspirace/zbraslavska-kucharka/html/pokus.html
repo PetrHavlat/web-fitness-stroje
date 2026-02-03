@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+    <title>Název stránky</title>
+    <meta charset='utf-8'>
+        <link rel="stylesheet" href="../css/kucharka.css" type="text/css">
+        
+  </head>
+  <body>
+     <h4 id='rh0'>Polévka z červené řepy s pikantním jogurtem
+</h4><div id='rd0' class='toggle' onmouseover="msg_done()"><u>Polévky</u><br><em>Vložil uživatel:Petr Havlát 06.10.2014</em><br><h5>Ingredience:</h5><p>Na polévku:
+
+50 g másla
+1 polévková lžíce olivového oleje
+1 velká cibule oloupaná a nakrájená na kostičky
+1 větší stroužek česneku oloupaný a nakrájený na kostičky
+1 lžička mletého římského kmínu
+750 g čerstvé řepy, oloupané, nakrájené na větší kusy
+3/4 litru kuřecího vývaru, může být i zeleninový
+sůl, pepř, hladká petržel nebo nať koriandru na ozdobu
+
+Na jogurt:
+
+1 lžička římského kmínu
+1 lžička semínek koriandru
+1 lžička kmínu
+1/2 lžičky sladké mleté papriky
+1/4 lžičky cayenského pepře
+4 lžíce bílého jogurt
+1 polévková lžíce olivového oleje
+</p><h5>Postup:</h5><p>Ve větším hrnci rozehřejeme máslo a olivový olej. Jakmile se tuk zpění, přidáme nakrájenou cibuli, česnek, římský kmín a lehce osmažíme asi 5 minut, dokud cibule a česnek nezměknou, nesmí však zhnědnout. Přidáme oloupanou a na kostky nakrájenou červenou řepu, opečeme a zalijeme vývarem. Přikryjeme a dusíme asi 20 - 25 minut. Mezitím na suchou pánev dáme římský kmín, koriandr a kmín a na mírném ohni na sucho opražíme, až koření začne vonět.
+K dochucení i na ozdobení je vhodná pažitka
+
+Přendáme do mlýnku na koření nebo hmoždíře či jiné pevné misky a roztlučeme na prášek. Jednu lžičku koření přidáme do připraveného jogurtu a zbytek si uschováme pro jiné použití (třeba na pečené jehněčí maso nebo k ochucení pomazánek a dipů), přidáme olivový olej a zamícháme.
+
+Uvařenou řepu s vývarem přendáme do mixéru anebo ručním mixérem v hrnci opatrně rozmixujeme. Ochutíme solí a pepřem, podle hustoty případně rozředíme vývarem a podáváme teplou s pikantním jogurtem, ozdobené petrželkou nebo koriandrem. Barevná kombinace rudě červené, bílé a zelené vás okouzlí, stejně jako kořeněná orientální chuť.
+</p></div>
+     <script src="../js/jquery-1.11.1.min.js"></script>
+    <script>
+    function msg(typ,txt)
+    {
+    $('document').ready(function()
+     {$('#rd0').fadeIn();
+     });
+    document.getElementById("rd0").innerHTML = txt;
+    switch(typ) {
+    case 0: document.getElementById('rd0').style.backgroundColor = 'green';
+             break;
+    case 1: document.getElementById('rd0').style.backgroundColor = 'red';
+              break;
+    }
+    }
+
+    function msg_done()
+    {
+    $('document').ready(function()
+     {$("#rd0").fadeOut();;
+     });
+    }
+    msg(0,"změna");
+
+
+    </script>
+  </body>
+</html>

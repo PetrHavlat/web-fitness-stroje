@@ -1,0 +1,61 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+zbraslavska-kucharka
+	+Složka
+		+css
+			css\kucharka.css
+		+html
+			html\aktuality.html
+			html\results.html
+		+js
+			js\jquery-1.11.1.min.js
+			js\modernizr-min.js
+		+php
+			php\globals.php
+			html\navstevni_kniha.txt
+			php\pripojeni_mySQL.php
+			php\vzkazy.php
+		index.html
+		kuchaøka-zmìny.txt
+		navstevni_kniha.php
+		feedback.txt
+		pridat_recept.php
+		recepty.php
+[Open project files]
+0=kuchaøka-zmìny.txt
+1=recepty.php
+2=pridat_recept.php
+3=index.html
+4=feedback.txt
+5=php\globals.php
+[Selected Project Files]
+Main=
+Selected=recepty.php
+[kuchaøka-zmìny.txt]
+TopLine=1
+Caret=47,4
+[recepty.php]
+TopLine=170
+Caret=14,170
+[pridat_recept.php]
+TopLine=98
+Caret=54,117
+[index.html]
+TopLine=1
+Caret=14,1
+[feedback.txt]
+TopLine=10
+Caret=56,44
+[php\globals.php]
+TopLine=52
+Caret=1,1
